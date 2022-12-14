@@ -19,10 +19,21 @@ Route::get('/', function () {
 });
 Route::get('/aboutUs', function () {
     $members = [
-        "humans" => ["serena", "Marco", "David", "Michele"],
+        "humans" => ["Serena", "Marco", "David", "Michele"],
         "dogs" => ["Lupen", "Mia"],
         "cats" => ["Mina", "Frank"]
     ];
 
     return view('aboutUs', $members);
+})->name("chiSiamo");
+
+Route::get('/where', function () {
+    return view('where');
+});
+
+Route::get('/what', function () {
+    return view('what');
+});
+Route::get('/offer', function () {
+    return view('offer');
 });

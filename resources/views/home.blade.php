@@ -12,8 +12,12 @@
 
 <body>
     <div class="container text-center">
-        <h1>{{ $family }}</h1>
-        <a href="/aboutUs"> Scopri chi siamo</a>
+        <h1 class="m-3">{{ $family }}</h1>
+        <a class="m-3" href="/aboutUs"> Chi siamo</a>
+        <a class="m-3" href="/where">Dove siamo</a>
+        <a class="m-3" href="/what">Cosa facciamo</a>
+        <a class="m-3" href="/offer">Cosa offriamo</a>
+
     </div>
 </body>
 

@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <h2 class="text-center my-3">
-            Who are we?
+            Noi siamo in molti:
         </h2>
         <div class="container d-flex justify-content-center">
             <div class="mx-3">
@@ -38,6 +38,7 @@
                 @endforeach
             </div>
         </div>
+        <a href="/">Torna alla home</a>
     </div>
 </body>
 
